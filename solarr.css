@@ -1,0 +1,209 @@
+
+
+body{
+    background-image: url(./space.jpg);
+}
+
+.neptune{
+    border: 2px solid white;
+    border-radius:50% ;
+    height: 1000px;
+    width: 1000px;
+    margin: 50px auto;
+    animation-name:neptune;
+    animation-delay: none;
+    animation-timing-function: linear;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;  
+}
+@keyframes neptune {
+    from{
+        transform:rotate(360deg);
+    }
+    
+}
+#nep{
+    width: 60px;
+    margin: 1px 300px;
+}
+
+.uranus{
+    border: 2px solid white;
+    border-radius:50% ;
+    height: 900px;
+    width: 900px;
+    margin: 0px auto;
+    margin-top: -1000px;
+    animation-name:uranus;
+    animation-delay: none;
+    animation-timing-function: linear;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; 
+    
+}
+
+@keyframes uranus {
+    from{
+        transform:rotate(360deg);
+    }
+}
+
+
+#ura{
+    width: 60px;
+    margin:1px 570px;
+    
+}
+.saturn{
+    border: 2px solid white;
+    border-radius:50% ;
+    height: 800px;
+    width: 800px;
+    margin: 0px auto;
+    margin-top: -850px;
+    animation-name:saturn;
+    animation-delay: none;
+    animation-timing-function: linear;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+@keyframes saturn {
+    from{
+        transform:rotate(360deg);
+    }
+}
+
+#sat{
+    width: 150px;
+    margin: 1px 550px;
+}
+.jupiter{
+    border: 2px solid white;
+    border-radius:50% ;
+    height: 700px;
+    width: 700px;
+    margin: 0px auto;
+    margin-top: -750px;
+    animation-name:jupiter;
+    animation-delay: none;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+@keyframes jupiter {
+    from{
+        transform:rotate(360deg);
+    }
+}
+#jup{
+    width: 60px;
+    margin: -25px 300px;
+}
+.mars{
+    border: 2px solid white;
+    border-radius:50% ;
+    height: 600px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: -650px;
+    animation-name:mars;
+    animation-delay: none;
+    animation-timing-function: linear;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes mars {
+    from{
+        transform:rotate(360deg);
+    }
+}
+#mar{
+    width: 50px;
+    margin: -12px 300px;
+}
+.earth{
+    border: 2px solid white;
+    border-radius:50% ;
+    height: 500px;
+    width: 500px;
+    margin: 0px auto;
+    margin-top: -550px;
+    animation-name:earth;
+    animation-delay: none;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes earth {
+    from{
+        transform:rotate(360deg);
+    }
+}
+#ear{
+    width: 60px;
+    margin: -12px 300px;
+}
+.venus{
+    border: 2px solid white;
+    border-radius:50% ;
+    height: 400px;
+    width: 400px;
+    margin: 0px auto;
+    margin-top: -450px;
+    animation-name:venus;
+    animation-delay: none;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes venus {
+    from{
+        transform:rotate(360deg);
+    }
+}
+#ven{
+    width: 60px;
+    margin: 1px 300px;
+}
+.mercury{
+    border: 2px solid white;
+    border-radius:50% ;
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+    margin-top: -350px;
+    animation-name:mercury;
+    animation-delay: none;
+    animation-timing-function:linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes mercury {
+    from{
+        transform:rotate(360deg);
+    }
+}
+#mer{
+    width: 60px;
+    margin:-20px 100px;
+
+}
+.sn{
+    width: 250px;
+    margin: -270px auto;
+}
+#suu{
+    width: 250px;
+    top: 300px;
+    
+}
